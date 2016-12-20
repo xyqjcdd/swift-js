@@ -12,7 +12,7 @@ swift3.0之后改成下面的，js就不能调用swift的方法了
 ```
 jsContext.setObject(self, forKeyedSubscript: "jsobject" as (NSCopying & NSObjectProtocol)!);
 ```
-开始我以为是这个方法的问题，纠结了好久。后来发现不是这个的问题，其实该起来也很简单，只要在`protocol`前加上`@objc`就可以了
+开始我以为是这个方法的问题，纠结了好久。后来发现不是这个的问题，其实改起来也很简单，只要在`protocol`前加上`@objc`就可以了
 ```
 @objc protocol JSObjectMethods: JSExport
 {
