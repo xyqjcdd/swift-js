@@ -11,6 +11,7 @@ import JavaScriptCore
 
 @objc protocol JSObjectMethods: JSExport
 {
-    func upAction(_ username:String);
-    func test();
+    func upAction(_ username:String)
+    func update(_ test1:String, _ test2:String)
+    func test()
 }

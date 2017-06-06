@@ -59,6 +59,10 @@ class ViewController: UIViewController,UIWebViewDelegate,JSObjectMethods {
         };
     }
     
+    func update(_ test1: String, _ test2: String) {
+        print(test1,test2)
+    }
+    
     func test()
     {
         print("这是不传参数的，js可以调用swift！");
