@@ -1,5 +1,5 @@
 # swift-js
-######之前写了一个OC-JS的demo，https://github.com/Xuyanqing/OC-JavaScript.git 
+######之前写了一个OC-JS的demo，https://github.com/xyqjcdd/OC-JavaScript.git 
 
 #####这是用swift写的，用的是JavaScriptCore。
 
