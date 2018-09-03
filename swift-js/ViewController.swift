@@ -36,7 +36,7 @@ class ViewController: UIViewController,UIWebViewDelegate,JSObjectMethods {
         jsContext = showHtmlWebView.value(forKeyPath: "documentView.webView.mainFrame.javaScriptContext") as! JSContext;
         
         //将jsobject对象指向自身，名字可以随便起，但是这里的名字要与js里的一致。
-        jsContext.setObject(self, forKeyedSubscript: "jsobject" as (NSCopying & NSObjectProtocol)!);
+        jsContext.setObject(self, forKeyedSubscript: "jsobject" as (NSCopying & NSObjectProtocol)?);
 
         jsContext.exceptionHandler = { (context,exceptionValue) in
             print("异常信息：\(exceptionValue!)");
