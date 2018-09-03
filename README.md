@@ -14,8 +14,6 @@ OC版：[OC调用JS GitHub](https://github.com/xyqjcdd/OC-JavaScript.git)
 
 swift 版：[swift调用js](https://github.com/xyqjcdd/swift-js.git)
 
-这是用swift写的，用的是JavaScriptCore。
-
 
 swift3.0之前是这个方法
 ```
