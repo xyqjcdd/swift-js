@@ -1,20 +1,5 @@
 # swift-js(UIWebView)
 
-swift/OC与JS的交互(WKWebView)
----
-
-swift 版：[Swift-JS GitHub](https://github.com/xyqjcdd/WKWebJSSwift.git)
-
-OC版：[OC-JS GitHub](https://github.com/xyqjcdd/WKWebJSOC.git)
-
-OC与JS的交互（UIWebView）
----
-
-OC版：[OC调用JS GitHub](https://github.com/xyqjcdd/OC-JavaScript.git)
-
-swift 版：[swift调用js](https://github.com/xyqjcdd/swift-js.git)
-
-
 swift3.0之前是这个方法
 ```
 jsContext.setObject(self, forKeyedSubscript: "jsobject");
@@ -36,3 +21,17 @@ jsContext.setObject(self, forKeyedSubscript: "jsobject" as (NSCopying & NSObject
 func upAction(_ username:String);
 ```
 上面这些是我的解决办法，如果不对欢迎吐槽，一起学习。
+
+swift/OC与JS的交互(WKWebView)
+---
+
+swift 版：[Swift-JS GitHub](https://github.com/xyqjcdd/WKWebJSSwift.git)
+
+OC版：[OC-JS GitHub](https://github.com/xyqjcdd/WKWebJSOC.git)
+
+OC与JS的交互（UIWebView）
+---
+
+OC版：[OC调用JS GitHub](https://github.com/xyqjcdd/OC-JavaScript.git)
+
+swift 版：[swift调用js](https://github.com/xyqjcdd/swift-js.git)
