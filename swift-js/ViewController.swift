@@ -33,7 +33,7 @@ class ViewController: UIViewController,UIWebViewDelegate,JSObjectMethods {
         if webView.isLoading{
             return;
         }
-        jsContext = showHtmlWebView.value(forKeyPath: "documentView.webView.mainFrame.javaScriptContext") as! JSContext;
+        jsContext = showHtmlWebView.value(forKeyPath: "documentView.webView.mainFrame.javaScriptContext") as? JSContext;
         
         //将jsobject对象指向自身，名字可以随便起，但是这里的名字要与js里的一致。
         jsContext.setObject(self, forKeyedSubscript: "jsobject" as (NSCopying & NSObjectProtocol)?);
