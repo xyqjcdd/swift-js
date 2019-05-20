@@ -59,6 +59,7 @@ class ViewController: UIViewController,UIWebViewDelegate,JSObjectMethods {
         };
     }
     
+    //jsobject.update("test111111111","test222222222");
     func update(_ test1: String, _ test2: String) {
         print(test1,test2)
     }
